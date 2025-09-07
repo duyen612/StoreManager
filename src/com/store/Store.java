@@ -120,7 +120,7 @@ public class Store {
 
     // giúp escape/restore thay dấu , bằng ;; để không bị lỗi khi ghi/đọc file.
     private String escapeCsv(String s) {
-        return s.replace("\"", "\"\"").replace(",", ";;"); // đơn giản cho bài tập
+        return s.replace("\"", "\"\"").replace(",", ";;"); 
     }
     private String unescapeCsv(String s) {
         return s.replace(";;", ",").replace("\"\"", "\"");
