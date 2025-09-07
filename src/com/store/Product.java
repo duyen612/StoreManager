@@ -9,7 +9,7 @@ public class Product implements Serializable {
     private String description;
     private double price; // giá gốc
     private int quantity;
-    private double discount; // phần trăm, ví dụ 10.0 = 10%
+    private double discount; // phần trăm
 
     public Product(int id, String name, String category, String description, double price, int quantity) {
         this.id = id;
